@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+/* Inspired by Coco */
+body {
+  background-color: #ffffff;
+  font-family: "Raleway", "Roboto", "Lato", "Playfair Display", "Open Sans",
+    "Sans Serif";
+}
+
+.font-norm {
+  font-family: "Roboto";
+}
+.nav-font {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.footer {
+  background-color: #2f3032;
+}
+.gray {
+  background-color: ghostwhite;
+}
+.blue {
+  background-color: #3366cc;
+}
+.white {
+  background-color: #ffffff;
+}
+.rounded {
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.mapouter {
+  text-align: right;
+}
+
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+}
+.flush-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+p.drop:first-letter {
+  float: left;
+  font-size: 70px;
+  line-height: 1;
+  font-weight: bold;
+  margin-right: 9px;
+  color: blue;
+  font-family: "Raleway", Lato, sans-serif;
+  text-shadow: lightblue 0.05em 0.05em;
+}
+.icons {
+  border-radius: 50%;
+  padding: 20px;
+  font-size: 22px;
+  color: #3f729b;
+  background-color: #fff;
+  border-color: #fff;
+}
+.icons2 {
+  border-radius: 50%;
+  padding: 20px;
+  font-size: 22px;
+  color: #3f729b;
+  background-color: ghostwhite;
+  border-color: #fff;
+}
+@media only screen and (max-width: 1026px) {
+  #fadeshow {
+    display: none;
+  }
+}
+.centered {
+  position: absolute;
+  top: 50%;
+ left: 50%;
+ text-align: center;
+  transform: translate(-50%, -50%);
+}
+/**Coco*/
+.zoom {
+    padding: 5px;;
+    transition: transform .2s; /* Animation */
+    margin: 0 auto;
+}
+.zoom:hover {
+    transform: scale(1.03); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
